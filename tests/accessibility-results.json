@@ -1,0 +1,367 @@
+[
+  {
+    "test": "Pristine fields do not announce error messages",
+    "pass": true,
+    "details": ""
+  },
+  {
+    "test": "Desktop initial: axe WCAG A/AA",
+    "pass": true,
+    "details": {
+      "violations": [],
+      "manualReview": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".panel-meta > span"
+            ],
+            [
+              ".node-top"
+            ],
+            [
+              ".node-bottom"
+            ],
+            [
+              ".panel-footer > span:nth-child(1)"
+            ],
+            [
+              ".panel-footer > span:nth-child(2)"
+            ],
+            [
+              "#details"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "test": "Desktop: no horizontal overflow",
+    "pass": true,
+    "details": {
+      "content": 1280,
+      "viewport": 1280,
+      "textOverflow": [],
+      "overflow": []
+    }
+  },
+  {
+    "test": "Reviewed contrast: .panel-meta > span",
+    "pass": true,
+    "details": 10.63
+  },
+  {
+    "test": "Reviewed contrast: .node-top",
+    "pass": true,
+    "details": 10.63
+  },
+  {
+    "test": "Reviewed contrast: .node-bottom",
+    "pass": true,
+    "details": 10.63
+  },
+  {
+    "test": "Reviewed contrast: .panel-footer > span",
+    "pass": true,
+    "details": 10.63
+  },
+  {
+    "test": "Reviewed contrast: .diagram-core small",
+    "pass": true,
+    "details": 7.96
+  },
+  {
+    "test": "Reviewed contrast: .brand-name small",
+    "pass": true,
+    "details": 15.32
+  },
+  {
+    "test": "Placeholder contrast",
+    "pass": true,
+    "details": 5.028811884723741
+  },
+  {
+    "test": "Secondary button boundary contrast",
+    "pass": true,
+    "details": 3.5124436999546917
+  },
+  {
+    "test": "Focused controls are not hidden by header",
+    "pass": true,
+    "details": []
+  },
+  {
+    "test": "Invalid submission focuses error summary",
+    "pass": true,
+    "details": ""
+  },
+  {
+    "test": "Invalid submission identifies all four required entries",
+    "pass": true,
+    "details": ""
+  },
+  {
+    "test": "Form errors: axe WCAG A/AA",
+    "pass": true,
+    "details": {
+      "violations": [],
+      "manualReview": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".panel-meta > span"
+            ],
+            [
+              ".node-top"
+            ],
+            [
+              ".node-bottom"
+            ],
+            [
+              ".panel-footer > span:nth-child(1)"
+            ],
+            [
+              ".panel-footer > span:nth-child(2)"
+            ],
+            [
+              "#full-name"
+            ],
+            [
+              "#email"
+            ],
+            [
+              "#details"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "test": "Error link focuses its input",
+    "pass": true,
+    "details": ""
+  },
+  {
+    "test": "Malformed email remains invalid",
+    "pass": true,
+    "details": ""
+  },
+  {
+    "test": "Success exposes download and moves focus",
+    "pass": true,
+    "details": ""
+  },
+  {
+    "test": "Valid fields no longer reference error descriptions",
+    "pass": true,
+    "details": ""
+  },
+  {
+    "test": "Form success: axe WCAG A/AA",
+    "pass": true,
+    "details": {
+      "violations": [],
+      "manualReview": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".panel-meta > span"
+            ],
+            [
+              ".node-top"
+            ],
+            [
+              ".node-bottom"
+            ],
+            [
+              ".panel-footer > span:nth-child(1)"
+            ],
+            [
+              ".panel-footer > span:nth-child(2)"
+            ],
+            [
+              "#details"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "test": "Editing invalidates stale download",
+    "pass": true,
+    "details": ""
+  },
+  {
+    "test": "375px: no horizontal overflow",
+    "pass": true,
+    "details": {
+      "content": 375,
+      "viewport": 375,
+      "textOverflow": [],
+      "overflow": []
+    }
+  },
+  {
+    "test": "375px: axe WCAG A/AA",
+    "pass": true,
+    "details": {
+      "violations": [],
+      "manualReview": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".panel-meta > span"
+            ],
+            [
+              ".node-top"
+            ],
+            [
+              ".node-bottom"
+            ],
+            [
+              ".panel-footer > span:nth-child(1)"
+            ],
+            [
+              ".panel-footer > span:nth-child(2)"
+            ],
+            [
+              "#details"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "test": "320px: no horizontal overflow",
+    "pass": true,
+    "details": {
+      "content": 320,
+      "viewport": 320,
+      "textOverflow": [],
+      "overflow": []
+    }
+  },
+  {
+    "test": "320px: axe WCAG A/AA",
+    "pass": true,
+    "details": {
+      "violations": [],
+      "manualReview": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".panel-meta > span"
+            ],
+            [
+              ".node-top"
+            ],
+            [
+              ".node-bottom"
+            ],
+            [
+              ".panel-footer > span:nth-child(1)"
+            ],
+            [
+              ".panel-footer > span:nth-child(2)"
+            ],
+            [
+              "#details"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "test": "Rapid mobile selection closes menu and focuses destination",
+    "pass": true,
+    "details": ""
+  },
+  {
+    "test": "Escape closes menu and returns toggle focus",
+    "pass": true,
+    "details": ""
+  },
+  {
+    "test": "200% text: no horizontal overflow",
+    "pass": true,
+    "details": {
+      "content": 1280,
+      "viewport": 1280,
+      "textOverflow": [],
+      "overflow": []
+    }
+  },
+  {
+    "test": "200% text: axe WCAG A/AA",
+    "pass": true,
+    "details": {
+      "violations": [],
+      "manualReview": [
+        {
+          "id": "color-contrast",
+          "targets": [
+            [
+              ".brand-mark"
+            ],
+            [
+              ".panel-meta > span"
+            ],
+            [
+              ".node-top"
+            ],
+            [
+              ".diagram-core > span"
+            ],
+            [
+              ".diagram-core > small"
+            ],
+            [
+              ".node-bottom"
+            ],
+            [
+              ".panel-footer > span:nth-child(1)"
+            ],
+            [
+              ".panel-footer > span:nth-child(2)"
+            ],
+            [
+              "#details"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "test": "200% text: brand and navigation do not overlap",
+    "pass": true,
+    "details": {
+      "brandRight": 396.421875,
+      "navLeft": 428.421875
+    }
+  },
+  {
+    "test": "320px text spacing: no horizontal overflow",
+    "pass": true,
+    "details": {
+      "content": 320,
+      "viewport": 320,
+      "textOverflow": [],
+      "overflow": []
+    }
+  },
+  {
+    "test": "All tests complete",
+    "pass": true,
+    "details": ""
+  }
+]
